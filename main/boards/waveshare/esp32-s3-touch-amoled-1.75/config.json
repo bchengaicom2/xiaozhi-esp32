@@ -11,7 +11,11 @@
                 "CONFIG_USE_DEVICE_AEC=y",
                 "CONFIG_USE_AUDIO_PROCESSOR=y",
                 "CONFIG_USE_WAKE_WORD_DETECTION=y",
-                "CONFIG_SR_WN_WN9_NIHAOXIAOZHI_TTS=y"
+                "CONFIG_SEND_WAKE_WORD_DATA=y",
+                "CONFIG_USE_CUSTOM_WAKE_WORD=y",
+                "CONFIG_CUSTOM_WAKE_WORD=\"ni hao tong tong\"",
+                "CONFIG_CUSTOM_WAKE_WORD_DISPLAY=\"你好彤彤\"",
+                "CONFIG_CUSTOM_WAKE_WORD_THRESHOLD=20"
             ]
         },
         {
@@ -22,7 +26,11 @@
                 "CONFIG_USE_DEVICE_AEC=y",
                 "CONFIG_USE_AUDIO_PROCESSOR=y",
                 "CONFIG_USE_WAKE_WORD_DETECTION=y",
-                "CONFIG_SR_WN_WN9_NIHAOXIAOZHI_TTS=y"
+                "CONFIG_SEND_WAKE_WORD_DATA=y",
+                "CONFIG_USE_CUSTOM_WAKE_WORD=y",
+                "CONFIG_CUSTOM_WAKE_WORD=\"tong tong\"",
+                "CONFIG_CUSTOM_WAKE_WORD_DISPLAY=\"彤彤\"",
+                "CONFIG_CUSTOM_WAKE_WORD_THRESHOLD=15"
             ]
         }
     ]
