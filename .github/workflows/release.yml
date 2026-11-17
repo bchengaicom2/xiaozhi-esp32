@@ -7,15 +7,15 @@ jobs:
   build-175c:
     runs-on: ubuntu-latest
     container:
-      image: espressif/idf:release-v5.4
+      image: espressif/idf:release-v5.5
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          submodules: recursive
 
       - name: Build Waveshare 1.75c Firmware
+        shell: bash
         run: |
+          . /opt/esp/idf/export.sh
           python3 scripts/release.py waveshare/esp32-s3-touch-amoled-1.75 --name esp32-s3-touch-amoled-1.75c
 
       - name: Upload Firmware ZIP
